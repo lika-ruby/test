@@ -2,16 +2,21 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://lika-ruby.github.io/test/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    ,"start": "npx parcel src/index.html"
-    ,"build": "parcel build src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
